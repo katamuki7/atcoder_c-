@@ -8,7 +8,7 @@ int main() {
   if (a[1] == a[2]) {
     cout << "Weak1" << endl;
   }
-  else if (a[1]+1 == a[2] || (a[1] == 9 && a[2] == 0))
+  //else if (a[1]+1 == a[2] || (a[1] == 9 && a[2] == 0))
     if (a[2]+1 == a[3] || (a[2] == 9 && a[3] == 0))
       if (a[3]+1 == a[4] || (a[3] == 9 && a[4] == 0))
         if (a[4]+1 == a[1] || (a[4] == 9 && a[1] == 0))
@@ -17,3 +17,5 @@ int main() {
     cout << "Strong" <<endl;
   cout << a[0] << a[1]<< endl;
 }
+//muzukasiiyo!!
+
